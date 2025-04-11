@@ -1,0 +1,142 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "quizId": "quiz1",
+      "type": "multiple",
+      "questionText": "What does CPU stand for?",
+      "options": [
+        "Central Processing Unit",
+        "Central Process Unit",
+        "Computer Personal Unit",
+        "Central Processor Unit"
+      ],
+      "correctAnswer": "Central Processing Unit",
+      "explanation": "CPU stands for Central Processing Unit, which is the brain of the computer."
+    },
+    {
+      "id": 2,
+      "quizId": "quiz1",
+      "type": "narrative",
+      "questionText": "Explain the concept of RAM in computing.",
+      "correctAnswer": "random access memory",
+      "explanation": "RAM is the short-term memory of a computer, used for temporarily storing data."
+    },
+    {
+      "id": 3,
+      "quizId": "quiz1",
+      "type": "image",
+      "questionText": "Identify the logo of the Linux operating system.",
+      "imageOptions": [
+        {
+          "src": "https://via.placeholder.com/150?text=Linux",
+          "alt": "Linux Logo",
+          "value": "linux"
+        },
+        {
+          "src": "https://via.placeholder.com/150?text=Windows",
+          "alt": "Windows Logo",
+          "value": "windows"
+        },
+        {
+          "src": "https://via.placeholder.com/150?text=macOS",
+          "alt": "macOS Logo",
+          "value": "macos"
+        }
+      ],
+      "correctAnswer": "linux",
+      "explanation": "The image with 'Linux' text represents the Linux logo."
+    },
+    {
+      "id": 4,
+      "quizId": "quiz1",
+      "type": "multiple",
+      "questionText": "Which of the following is NOT an operating system?",
+      "options": [
+        "Linux",
+        "Android",
+        "Java",
+        "iOS"
+      ],
+      "correctAnswer": "Java",
+      "explanation": "Java is a programming language, not an operating system."
+    },
+    {
+      "id": 5,
+      "quizId": "quiz1",
+      "type": "narrative",
+      "questionText": "What is the binary representation of the decimal number 10?",
+      "correctAnswer": "1010",
+      "explanation": "The number 10 in decimal is 1010 in binary."
+    },
+    {
+      "id": 1,
+      "quizId": "quiz2",
+      "type": "multiple",
+      "questionText": "Which language is primarily used for web development on the client-side?",
+      "options": [
+        "JavaScript",
+        "Python",
+        "C++",
+        "Java"
+      ],
+      "correctAnswer": "JavaScript",
+      "explanation": "JavaScript is used mainly for client-side web development."
+    },
+    {
+      "id": 2,
+      "quizId": "quiz2",
+      "type": "narrative",
+      "questionText": "Name the programming language developed by James Gosling in the mid-1990s.",
+      "correctAnswer": "java",
+      "explanation": "Java was developed by James Gosling and released in 1995."
+    },
+    {
+      "id": 3,
+      "quizId": "quiz2",
+      "type": "image",
+      "questionText": "Select the logo of Python.",
+      "imageOptions": [
+        {
+          "src": "https://via.placeholder.com/150?text=Python",
+          "alt": "Python Logo",
+          "value": "python"
+        },
+        {
+          "src": "https://via.placeholder.com/150?text=Ruby",
+          "alt": "Ruby Logo",
+          "value": "ruby"
+        },
+        {
+          "src": "https://via.placeholder.com/150?text=Go",
+          "alt": "Go Logo",
+          "value": "go"
+        }
+      ],
+      "correctAnswer": "python",
+      "explanation": "The image with 'Python' text represents the Python logo."
+    },
+    {
+      "id": 4,
+      "quizId": "quiz2",
+      "type": "multiple",
+      "questionText": "Which of these languages is typically used for systems programming?",
+      "options": [
+        "C",
+        "Ruby",
+        "JavaScript",
+        "PHP"
+      ],
+      "correctAnswer": "C",
+      "explanation": "C is widely used for systems programming due to its efficiency."
+    },
+    {
+      "id": 5,
+      "quizId": "quiz2",
+      "type": "narrative",
+      "questionText": "What does HTML stand for?",
+      "correctAnswer": "hypertext markup language",
+      "explanation": "HTML stands for Hypertext Markup Language and is used to structure web pages."
+    }
+  ]
+}
