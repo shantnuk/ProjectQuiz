@@ -87,9 +87,9 @@
       "id": 2,
       "quizId": "quiz2",
       "type": "narrative",
-      "questionText": "Name the programming language developed by James Gosling in the mid-1990s.",
-      "correctAnswer": "java",
-      "explanation": "Java was developed by James Gosling and released in 1995."
+      "questionText": "What is the term for a function that calls itself?",
+      "correctAnswer": "Recursion",
+      "explanation": "Recursion is when a function calls upon itself within its body"
     },
     {
       "id": 3,
