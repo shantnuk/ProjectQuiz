@@ -65,7 +65,7 @@
       "id": 5,
       "quizId": "quiz1",
       "type": "narrative",
-      "questionText": "What keyword is used to declare a variable whose value cannot be changed",
+      "questionText": "What keyword is used to declare a variable whose value cannot be changed?",
       "correctAnswer": "final",
       "explanation": "FINAL is the keyword used to identify a constant in Java"
     },
@@ -73,7 +73,7 @@
       "id": 1,
       "quizId": "quiz2",
       "type": "multiple",
-      "questionText": "Which language is primarily used for web development on the client-side?",
+      "questionText": "Which one of these languages primarily creates websites for front-end applications?",
       "options": [
         "JavaScript",
         "Python",
@@ -81,7 +81,7 @@
         "Java"
       ],
       "correctAnswer": "JavaScript",
-      "explanation": "JavaScript is used mainly for client-side web development."
+      "explanation": "JavaScript is primarily used for front-end applications."
     },
     {
       "id": 2,
@@ -98,37 +98,37 @@
       "questionText": "Select the logo of Python.",
       "imageOptions": [
         {
-          "src": "https://via.placeholder.com/150?text=Python",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
           "alt": "Python Logo",
           "value": "python"
         },
         {
-          "src": "https://via.placeholder.com/150?text=Ruby",
-          "alt": "Ruby Logo",
-          "value": "ruby"
+          "src": "https://static-00.iconduck.com/assets.00/mongodb-compass-icon-2048x2045-71fe0v1q.png",
+          "alt": "mongo-db",
+          "value": "mdb"
         },
         {
-          "src": "https://via.placeholder.com/150?text=Go",
+          "src": "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
           "alt": "Go Logo",
           "value": "go"
         }
       ],
       "correctAnswer": "python",
-      "explanation": "The image with 'Python' text represents the Python logo."
+      "explanation": "Since 2005"
     },
     {
       "id": 4,
       "quizId": "quiz2",
       "type": "multiple",
-      "questionText": "Which of these languages is typically used for systems programming?",
+      "questionText": "Which one of these languages allows for styling of a website?",
       "options": [
         "C",
-        "Ruby",
+        "CSS",
         "JavaScript",
-        "PHP"
+        "Python"
       ],
-      "correctAnswer": "C",
-      "explanation": "C is widely used for systems programming due to its efficiency."
+      "correctAnswer": "CSS",
+      "explanation": "CSS is used to style websites for many applications."
     },
     {
       "id": 5,
@@ -136,7 +136,7 @@
       "type": "narrative",
       "questionText": "What does HTML stand for?",
       "correctAnswer": "hypertext markup language",
-      "explanation": "HTML stands for Hypertext Markup Language and is used to structure web pages."
+      "explanation": "HTML stands for Hypertext Markup Language"
     }
   ]
 }
