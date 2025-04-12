@@ -4,29 +4,29 @@
       "id": 1,
       "quizId": "quiz1",
       "type": "multiple",
-      "questionText": "NEW TESTER",
+      "questionText": "How can you compare the content of two Strings?",
       "options": [
-        "Central Processing Unit",
-        "Central Process Unit",
-        "Computer Personal Unit",
-        "Central Processor Unit"
+        "string1.equals(string2)",
+        "string1 = string2",
+        "string1 == string2",
+        "None Of The Above"
       ],
-      "correctAnswer": "Central Processing Unit",
-      "explanation": "CPU stands for Central Processing Unit, which is the brain of the computer."
+      "correctAnswer": "string1.equals(string2)",
+      "explanation": "You must use the .equals method to compare string objects."
     },
     {
       "id": 2,
       "quizId": "quiz1",
       "type": "narrative",
-      "questionText": "Explain the concept of RAM in computing.",
-      "correctAnswer": "random access memory",
-      "explanation": "RAM is the short-term memory of a computer, used for temporarily storing data."
+      "questionText": "What is the name of the method in which the program begins execution?",
+      "correctAnswer": "main",
+      "explanation": "The main method is where the JVM looks for when starting a program"
     },
     {
       "id": 3,
       "quizId": "quiz1",
       "type": "image",
-      "questionText": "Identify the logo of the Linux operating system.",
+      "questionText": "What is the logo for Java?",
       "imageOptions": [
         {
           "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png",
@@ -34,40 +34,40 @@
           "value": "linux"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1024px-Windows_logo_-_2012.svg.png",
-          "alt": "Windows Logo",
-          "value": "windows"
+          "src": "https://2ality.com/2011/10/logo-js/js.jpg",
+          "alt": "JS",
+          "value": "js"
         },
         {
-          "src": "https://seeklogo.com/images/A/apple-mac-os-logo-02F86B913E-seeklogo.com.png",
-          "alt": "macOS Logo",
-          "value": "macos"
+          "src": "https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png",
+          "alt": "j",
+          "value": "java"
         }
       ],
-      "correctAnswer": "linux",
-      "explanation": "The image with 'Linux' text represents the Linux logo."
+      "correctAnswer": "java",
+      "explanation": "This has been the logo for Java since 2003"
     },
     {
       "id": 4,
       "quizId": "quiz1",
       "type": "multiple",
-      "questionText": "Which of the following is NOT an operating system?",
+      "questionText": "Which data type defines a whole number?",
       "options": [
-        "Linux",
-        "Android",
-        "Java",
-        "iOS"
+        "num",
+        "float",
+        "int",
+        "bool"
       ],
-      "correctAnswer": "Java",
-      "explanation": "Java is a programming language, not an operating system."
+      "correctAnswer": "int",
+      "explanation": "int is used to define numbers like 1, 2, 3, etc."
     },
     {
       "id": 5,
       "quizId": "quiz1",
       "type": "narrative",
-      "questionText": "What is the binary representation of the decimal number 10?",
-      "correctAnswer": "1010",
-      "explanation": "The number 10 in decimal is 1010 in binary."
+      "questionText": "What keyword is used to declare a variable whose value cannot be changed",
+      "correctAnswer": "final",
+      "explanation": "FINAL is the keyword used to identify a constant in Java"
     },
     {
       "id": 1,
