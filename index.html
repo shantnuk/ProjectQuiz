@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="main-widget">
+
+      </div>
+    </div>
+    <script id="start" type="text/x-handlebars-template">
+      <h1 style="text-align: center; padding-top: 2em;">Web Dev Quiz</h1>
+      <div class="start-view">
+        <form id="start-form">
+          <div class="formContainer" style="padding-bottom: 1em;">
+            <label for="name" style="padding-left: 2em;">Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name Here" style="margin-left: 1.8em; padding-left: .8em;">
+          </div>
+          <div class="formContainer">
+            <label for="quiz-select">Choose A Quiz:</label>
+            <select id="quiz-select">
+              <option value="quiz1">Computer Science Basics</option>
+              <option value="quiz2">Programming Languages</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-left: 10em; margin-top: 2em;">Start Quiz</button>
+        </form>
+      </div>
+    </script>
+    
+    <!-- Question View Template -->
+    <script id="question" type="text/x-handlebars-template">
+      <div class="quiz-view">
+        <div class="scoreboard mb-3">
+          <span>Question: {{currentQuestion}}/{{totalQuestions}}</span> | 
+          <span>Score: {{score}}</span> | 
+          <span>Time: {{elapsedTime}}s</span>
+        </div>
+        <div class="question-container">
+          <h4>{{questionText}}</h4>
+          {{#if isMultipleChoice}}
+            <div class="options">
+              {{#each options}}
+                <button class="btn btn-outline-primary m-1 option-btn" data-answer="{{this}}">{{this}}</button>
+              {{/each}}
+            </div>
+          {{/if}}
+          {{#if isNarrative}}
+            <form id="narrative-form">
+              <div class="formContainer">
+                <input type="text" class="form-control" id="narrative-answer" placeholder="Type your answer here">
+              </div>
+              <button type="submit" class="btn btn-primary" style="margin-left: 10em; margin-top: 2em;">Submit Answer</button>
+            </form>
+          {{/if}}
+          {{#if isImageSelection}}
+            <div class="img-options">
+              {{#each imageOptions}}
+                <img src="{{this.src}}" alt="{{this.alt}}" class="img-thumbnail m-1 img-option" data-answer="{{this.value}}" style="max-width:150px; cursor:pointer;">
+              {{/each}}
+            </div>
+          {{/if}}
+        </div>
+      </div>
+    </script>
+    
+    <!-- Feedback View Template for Correct Answer -->
+    <script id="feedback-correct" type="text/x-handlebars-template">
+      <div class="feedback-view text-center">
+        <div class="alert alert-success" role="alert">
+          {{message}}
+        </div>
+      </div>
+    </script>
+    
+    <!-- Feedback View Template for Incorrect Answer-->
+    <script id="feedback-incorrect" type="text/x-handlebars-template">
+      <div class="feedback-view">
+        <div class="alert alert-danger">
+          <p>Incorrect. The correct answer is: <strong>{{correctAnswer}}</strong></p>
+          <p>{{explanation}}</p>
+          <button id="got-it-btn" class="btn btn-secondary">Got it</button>
+        </div>
+      </div>
+    </script>
+    
+    <!-- Final Result Template -->
+    <script id="final" type="text/x-handlebars-template">
+      <div class="final-view text-center">
+        <h2>{{resultMessage}}</h2>
+        <p>Your Score: {{score}}/{{totalQuestions}}</p>
+        <button id="retest-btn" class="btn btn-primary m-2">Retake Quiz</button>
+        <button id="home-btn" class="btn btn-secondary m-2">Return to Main</button>
+      </div>
+    </script>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
