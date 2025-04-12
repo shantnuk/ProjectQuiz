@@ -3,14 +3,6 @@
     {
       "id": 1,
       "quizId": "quiz1",
-      "type": "narrative",
-      "questionText": "What is the name of the method in which the program begins execution?",
-      "correctAnswer": "main",
-      "explanation": "The main method is where the JVM looks for when starting a program"
-    },
-      {
-      "id": 2,
-      "quizId": "quiz1",
       "type": "multiple",
       "questionText": "How can you compare the content of two Strings?",
       "options": [
@@ -21,6 +13,14 @@
       ],
       "correctAnswer": "string1.equals(string2)",
       "explanation": "You must use the .equals method to compare string objects."
+    },
+    {
+      "id": 2,
+      "quizId": "quiz1",
+      "type": "narrative",
+      "questionText": "What is the name of the method in which the program begins execution?",
+      "correctAnswer": "main",
+      "explanation": "The main method is where the JVM looks for when starting a program"
     },
     {
       "id": 3,
@@ -50,14 +50,6 @@
     {
       "id": 4,
       "quizId": "quiz1",
-      "type": "narrative",
-      "questionText": "What keyword is used to declare a variable whose value cannot be changed?",
-      "correctAnswer": "final",
-      "explanation": "FINAL is the keyword used to identify a constant in Java"
-    },
-{
-      "id": 5,
-      "quizId": "quiz1",
       "type": "multiple",
       "questionText": "Which data type defines a whole number?",
       "options": [
@@ -70,7 +62,29 @@
       "explanation": "int is used to define numbers like 1, 2, 3, etc."
     },
     {
+      "id": 5,
+      "quizId": "quiz1",
+      "type": "narrative",
+      "questionText": "What keyword is used to declare a variable whose value cannot be changed?",
+      "correctAnswer": "final",
+      "explanation": "FINAL is the keyword used to identify a constant in Java"
+    },
+    {
       "id": 1,
+      "quizId": "quiz2",
+      "type": "multiple",
+      "questionText": "Which one of these languages primarily creates websites for front-end applications?",
+      "options": [
+        "JavaScript",
+        "Python",
+        "C++",
+        "Java"
+      ],
+      "correctAnswer": "JavaScript",
+      "explanation": "JavaScript is primarily used for front-end applications."
+    },
+    {
+      "id": 2,
       "quizId": "quiz2",
       "type": "narrative",
       "questionText": "What is the term for a function that calls itself?",
@@ -78,7 +92,7 @@
       "explanation": "Recursion is when a function calls upon itself within its body"
     },
     {
-      "id": 2,
+      "id": 3,
       "quizId": "quiz2",
       "type": "image",
       "questionText": "Select the logo of Python.",
@@ -103,7 +117,7 @@
       "explanation": "Since 2005"
     },
     {
-      "id": 3,
+      "id": 4,
       "quizId": "quiz2",
       "type": "multiple",
       "questionText": "Which one of these languages allows for styling of a website?",
@@ -117,26 +131,12 @@
       "explanation": "CSS is used to style websites for many applications."
     },
     {
-      "id": 4,
+      "id": 5,
       "quizId": "quiz2",
       "type": "narrative",
       "questionText": "What does HTML stand for?",
       "correctAnswer": "hypertext markup language",
       "explanation": "HTML stands for Hypertext Markup Language"
     }
-    {
-      "id": 5,
-      "quizId": "quiz2",
-      "type": "multiple",
-      "questionText": "Which one of these languages primarily creates websites for front-end applications?",
-      "options": [
-        "JavaScript",
-        "Python",
-        "C++",
-        "Java"
-      ],
-      "correctAnswer": "JavaScript",
-      "explanation": "JavaScript is primarily used for front-end applications."
-    },
   ]
 }
